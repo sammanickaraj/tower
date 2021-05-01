@@ -1,0 +1,5 @@
+- hosts: localhost
+  gather_facts: no
+  tasks:
+  - name: Demo git 
+    debug: msg="This is demo git project"
